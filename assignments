@@ -1,0 +1,44 @@
+#Question 1
+Program to search for a particular character in a string
+var string="nikitha"
+var ele="a"
+for(let i=o;i<=str.length;i++){
+if(str[i]==ele){
+console.log("the position of"+ele++"in the string"+str+"is in"+i+"position");
+}
+}
+
+#Question 2
+Program to convert minutes to seconds
+
+function mintosec(min){
+if(min>0){
+sec=min*60;
+}
+console.log("seconds:"+sec);
+}
+mintosec(10);
+
+#Question 3
+Program to search for a element in a array of strings
+var arr=["niki","ram","yogi","sai"];
+var search="ram";
+for(let i=0;i<=arr.length;i++){
+if(arr[i]==search){
+console.log("the search element is found in the"+i+"position");
+}
+}
+#Question 4
+Program to display only elements containing 'a' in them from a array
+var str=["niki","ram","yogi","sai"];
+for(let i=0;i<=arr.length;i++){
+let str0=str[0];
+for(let j=0;i<=str0.length;j++){
+if(str0[j]=='a'){
+console.log(str);
+}}}
+#Question 5
+Print an array in reverse order
+let arr=[10,20,30,60,50,80,70];
+let x=arr.reverse()
+console.log("reversed string is"+x);
